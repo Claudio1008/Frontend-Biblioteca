@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lista de ALUNOS</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/navegacao.css">
+    <link rel="stylesheet" href="css/listagem.css">
+</head>
+<body onload="recuperarListaAlunos()">
+    <header>
+        <nav>
+            <a href="lista-alunos.html">ALUNOS</a>
+            <a href="lista-livros.html">LIVROS</a>
+            <a href="lista-emprestimos.html">EMPRESTIMOS</a>
+        </nav>
+    </header>
+    <div class="painel">
+        <div class="esquerda">
+            <div>
+                <a href="/cadastro-alunos.html">NOVO ALUNO</a>
+            </div>
+        </div>
+        <div class="meio">
+            <h1>LIVROS</h1>
+        </div>
+        <div class="direita"></div>
+    </div>
+    <div class="container-tabela">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID ALUNO</th>
+                    <th>NOME</th>
+                    <th>SOBRENOME</th>
+                    <th>DATA DE NASCIMENTO</th>
+                    <th>ENDEREÇO</th>
+                    <th>EMAIL</th>
+                    <th>CELULAR</th>
+                    <th>AÇÕES</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>CONOR</td>
+                    <td>MC GREGOR</td>
+                    <td>2005-01-15</td>
+                    <td>RUA UFC , 123</td>
+                    <td>mcgregor@ufc.COM</td>
+                    <td>16998959876</td>
+                    <td>
+                        <img src="assets/icons/pencil-square.svg" alt="editar">
+                        <img src="assets/icons/trash-fill.svg" alt="excluir">
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>AMANDA</td>
+                    <td>NUNES</td>
+                    <td>2004-03-22</td>
+                    <td>RUA UFC , 456</td>
+                    <td>amanda.nunes@ufc.com</td>
+                    <td>16995992305</td>
+                    <td>
+                        <img src="assets/icons/pencil-square.svg" alt="editar">
+                        <img src="assets/icons/trash-fill.svg" alt="excluir">
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>ANGELINA</td>
+                    <td>JOLIE</td>
+                    <td>2003-07-10</td>
+                    <td>RUA HOLLYWOOD , 789</td>
+                    <td>jolie@cinema.com</td>
+                    <td>16991915502</td>
+                    <td>
+                        <img src="assets/icons/pencil-square.svg" alt="editar">
+                        <img src="assets/icons/trash-fill.svg" alt="excluir">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="js/aluno.js"></script>
+</body>
+</html>

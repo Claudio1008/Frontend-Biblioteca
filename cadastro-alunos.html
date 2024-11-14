@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro ALUNOS</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/from-aluno.css">
+    <link rel="stylesheet" href="css/navegacao.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="lista-alunos.html">ALUNOS</a>
+            <a href="lista-livros.html">LIVROS</a>
+            <a href="lista-emprestimos.html">EMPRESTIMOS</a>
+        </nav>
+    </header>
+    <h1>CADASTRO DE ALUNOS</h1>
+    <div class="container-formulario">
+        <form action="">
+            <label for="nome">
+                Nome
+                <br>
+                <input type="text" name="input-nome-aluno" placeholder="Nome completo" required>
+            </label>
+            <label for="sobrenome">
+                Sobrenome
+                <br>
+                <input type="text" name="input-sobrenome-aluno" placeholder="insira o sobrenome do aluno" required>
+            </label>
+            <label for="Data de nascimento">
+                Data de nascimento
+                <br>
+                <input type="date" name="input-data-de-nascimento-aluno" placeholder="insira a data de nascimento do aluno" required>
+            </label>
+            <label for="endereço">
+                Endereço
+                <br>
+                <input type="text" name="input-endereço-aluno" placeholder="insira o endereço do aluno" required>
+            </label>
+            <label for="email">
+                Email
+                <br>
+                <input type="text" name="input-email-aluno" placeholder="insira o email do aluno" required>
+            </label>
+            <label for="celular">
+                Celular
+                <br>
+                <input type="number" name="input-celular-aluno" placeholder="insira o celular do aluno" required>
+            </label>
+
+            <input type="button" value="CADASTRAR">
+        </form>
+    </div>
+</body>
+
+</html>
