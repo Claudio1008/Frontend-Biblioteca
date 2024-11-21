@@ -32,20 +32,21 @@
                 <br>
                 <input type="text" name="input-autor-livro" placeholder="insira o autor(a) do livro" required>
             </label>
+            <label for="ano de publicação">
+                Ano de publicação
+                <br>
+                <input type="text" name="input-ano-livro" placeholder="insira o ano de publicação do livro" required>
+            </label>
             <label for="editora">
                 Editora
                 <br>
                 <input type="text" name="input-editora-livro" placeholder="insira a Editora do livro" required>
             </label>
-            <label for="ano de publicação">
-                Ano de publicação
-                <br>
-                <input type="date" name="input-ano-livro" placeholder="insira o ano de publicação do livro" required>
-            </label>
+
             <label for="isbn">
                 ISBN
                 <br>
-                <input type="number" name="input-isbn-livro" placeholder="insira o isbn do livro" required>
+                <input type="text" name="input-isbn-livro" placeholder="insira o isbn do livro" required>
             </label>
             <label for="quantidade de livro">
                 Quantidade de livro
@@ -68,9 +69,10 @@
                 <input type="text" name="input-status-livro" placeholder="Insira o status do livro " required>
             </label>
 
-            <input type="button" value="CADASTRAR">
+            <input type="button" value="CADASTRAR" onclick="enviarFormulario()">
         </form>
     </div>
+    <script src="js/livro.js"></script>
 </body>
 
 </html>

@@ -35,7 +35,7 @@
             <label for="Data de nascimento">
                 Data de nascimento
                 <br>
-                <input type="date" name="input-data-de-nascimento-aluno" placeholder="insira a data de nascimento do aluno" required>
+                <input type="text" name="input-data-de-nascimento-aluno" placeholder="insira a data de nascimento do aluno" required>
             </label>
             <label for="endereço">
                 Endereço
@@ -50,12 +50,13 @@
             <label for="celular">
                 Celular
                 <br>
-                <input type="number" name="input-celular-aluno" placeholder="insira o celular do aluno" required>
+                <input type="text" name="input-celular-aluno" placeholder="insira o celular do aluno" required>
             </label>
 
-            <input type="button" value="CADASTRAR">
+            <input type="button" value="CADASTRAR" onclick="enviarFormulario()">
         </form>
     </div>
+    <script src="js/aluno.js"></script>
 </body>
 
 </html>
